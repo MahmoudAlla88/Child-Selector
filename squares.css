@@ -1,0 +1,22 @@
+div div{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+}
+/* div div:nth-child(n+4){
+    background-color: blue;
+}
+div div:nth-child(n+7){
+    background-color: green;
+} */
+div span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
