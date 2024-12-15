@@ -6,17 +6,14 @@ div div{
     padding: 10px;
     margin: 10px;
 }
-/* div div:nth-child(n+4){
-    background-color: blue;
-}
-div div:nth-child(n+7){
+
+div div:nth-child(6n+1),
+div div:nth-child(6n+2),
+div div:nth-child(6n+3){
     background-color: green;
-} */
-div span{
-    display: inline-block;
-    width: 25px;
-    height: 25px;
+}
+div div:nth-child(6n+4),
+div div:nth-child(6n+5),
+div div:nth-child(6n+6){
     background-color: blue;
-    padding: 10px;
-    margin: 10px;
 }
